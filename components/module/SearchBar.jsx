@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 
 
 const SearchBar = () => {
-    const [minPrice, setMinPrice] = useState(null);
-    const [maxPrice, setMaxPrice] = useState(null);
+    const [minPrice, setMinPrice] = useState('');
+    const [maxPrice, setMaxPrice] = useState('');
     const router = useRouter();
 
     const searchHandler = () => {
